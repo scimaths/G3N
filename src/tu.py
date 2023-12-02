@@ -180,7 +180,8 @@ def main():
 
                 val_accs.append(val_acc.cpu().detach().item())
 
-                tq.set_description(f'train_loss={train_loss:.2f}, train_acc={train_acc:.2f}, val_acc={val_acc:.2f}, time={time.time()-time_t:.2f}')  
+                # tq.set_description(f'train_loss={train_loss:.2f}, train_acc={train_acc:.2f}, val_acc={val_acc:.2f}, time={time.time()-time_t:.2f}')  
+                print(f'Epoch {epoch}: train_loss={train_loss:.2f}, train_acc={train_acc:.2f}, val_acc={val_acc:.2f}, time={time.time()-time_t:.2f}')  
         val_curves.append(val_accs)
 
         # aggregate val results (from https://github.com/twitter-research/cwn/blob/main/exp/run_tu_exp.py)

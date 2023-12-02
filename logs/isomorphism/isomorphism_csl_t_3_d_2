@@ -1,0 +1,300 @@
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 1 similar: 15.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 2 similar: 15.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 3 similar: 15.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 4 similar: 13.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 5 similar: 13.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 6 similar: 13.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 7 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 8 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 9 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 10 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 11 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 12 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 13 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 14 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 15 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 16 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 17 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 18 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 19 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 20 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 21 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 22 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 23 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 24 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 25 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 26 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 27 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 28 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 29 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 30 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 31 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 32 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 33 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 34 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 35 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 36 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 37 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 38 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 39 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 40 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 41 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 42 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 43 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 44 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 45 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 46 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 47 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 48 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 49 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 50 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 51 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 52 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 53 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 54 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 55 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 56 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 57 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 58 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 59 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 60 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 61 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 62 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 63 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 64 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 65 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 66 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 67 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 68 similar: 11.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 69 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 70 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 71 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 72 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 73 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 74 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 75 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 76 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 77 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 78 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 79 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 80 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 81 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 82 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 83 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 84 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 85 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 86 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 87 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 88 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 89 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 90 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 91 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 92 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 93 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 94 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 95 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 96 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 97 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 98 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 99 similar: 10.0
+topology types: {(2, 2, 2), (1, 1, 2), (1, 2, 2), (0, 1, 2), (1, 1, 1), (0, 1, 1)}
+number of topology types: 6
+iter 100 similar: 10.0

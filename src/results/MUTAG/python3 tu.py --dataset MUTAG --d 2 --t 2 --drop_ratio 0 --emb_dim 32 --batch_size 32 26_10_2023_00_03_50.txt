@@ -1,0 +1,5 @@
+cuda available with GPU: NVIDIA RTX A6000
+topology types: {(0, 1), (1, 2), (2, 2)}
+number of topology types: 3
+topology types: {(0, 1), (1, 2), (2, 2)}
+number of topology types: 3

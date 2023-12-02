@@ -1,6 +1,7 @@
 import torch
 import pickle
 import os
+import math
 from torch_geometric.data import InMemoryDataset
 from torch_geometric.data.data import Data
 from torch_geometric.utils import to_undirected
@@ -8,6 +9,7 @@ import networkx as nx
 import os.path as osp
 import numpy as np
 from torch_geometric.datasets import TUDataset
+import scipy.io as sio
 
 def get_n_params(model):
     pp=0
@@ -99,7 +101,7 @@ class GraphCountDataset(InMemoryDataset):
             deg=a.sum(0)
             star=0
             for j in range(a.shape[0]):
-                star+=comb(int(deg[j]),3)
+                star+=math.comb(deg[j], 3)
 
             expy=torch.tensor([[tri,tailed,star,cyc4,cus]])
 

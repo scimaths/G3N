@@ -56,8 +56,6 @@ def main():
                             help='dataset name (default: ogbg-molhiv)')
     args = parser.parse_args()
 
-    os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)  
     device = torch.device(f"cuda:{args.device}") if torch.cuda.is_available() else torch.device("cpu")
 
     dataset = PygGraphPropPredDataset(name=args.dataset)

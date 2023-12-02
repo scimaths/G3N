@@ -1,1 +1,6 @@
 .idea
+__pycache__
+processed
+src/data/
+src/dataset/
+src/preprocessed/

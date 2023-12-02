@@ -1,0 +1,1 @@
+cuda available with GPU: NVIDIA RTX A6000

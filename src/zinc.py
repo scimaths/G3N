@@ -52,8 +52,6 @@ def main():
                         help='which gpu to use if any (default: 0)')
     args = parser.parse_args()
 
-    os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)  
     if torch.cuda.is_available():
         print('cuda available with GPU:',torch.cuda.get_device_name(0))
     device = torch.device(f"cuda:{args.device}") if torch.cuda.is_available() else torch.device("cpu")

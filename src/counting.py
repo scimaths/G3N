@@ -35,14 +35,14 @@ def main():
                         help='pair combination operation (default: multi)')
     args = parser.parse_args()
 
-    os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)  
+    # os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+    # os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)  
     device = torch.device(f"cuda:{args.device}") if torch.cuda.is_available() else torch.device("cpu")
 
     # get dataset
     dataset = util.GraphCountDataset(root="dataset/subgraphcount/")
     dataset.data.y=(dataset.data.y/dataset.data.y.std(0))  # normalize outputs
-    dataset.data.x[:,1]=dataset.data.x[:,1]/dataset.data.x[:,1].max()  # normalize degree of the node
+    # dataset.data.x[:,1]=dataset.data.x[:,1]/dataset.data.x[:,1].max()  # normalize degree of the node
     a=sio.loadmat('dataset/subgraphcount/raw/randomgraph.mat')
     trid=a['train_idx'][0]
     vlid=a['val_idx'][0]
