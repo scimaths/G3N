@@ -92,6 +92,10 @@ class GNN_bench(nn.Module):  # for zinc, csl and tu datasets
         self.readout = params['readout']
         self.dropout = params['dropout']
         self.jk = params['jk']
+        self.gnn_layer = params['gnn_layer_type'] if 'gnn_layer_type' in params else None
+        self.single_mlp = params['single_mlp']
+        if self.gnn_layer == 'gmn':
+            print("Using GMN parameters")
 
         self.tu = 'tu' in params
 
@@ -101,7 +105,7 @@ class GNN_bench(nn.Module):  # for zinc, csl and tu datasets
         self.embedding_h = nn.Linear(self.nfeat, self.nhid)
         
         for layer in range(self.nlayers):
-            self.convs.append(GNNLayer(self.nhid, self.nhid, params))
+            self.convs.append(GNNLayer(self.nhid, self.nhid, params, update_type=self.gnn_layer, single_mlp=self.single_mlp))
             self.batch_norms.append(BatchNorm1d(self.nhid))
             
         # pooler

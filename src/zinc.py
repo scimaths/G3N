@@ -25,6 +25,10 @@ def main():
     parser.add_argument('--no-connected', dest='connected', action='store_false',
                         help='also consider disconnected t-subsets')
 
+    parser.add_argument('--single_mlp', action='store_true',
+                        help='gnn layer type, allowed are gnn and gmn')
+    parser.add_argument('--gnn_layer_type', default='gnn',
+                        help='gnn layer type, allowed are gnn and gmn')
     parser.add_argument('--drop_ratio', type=float, default=0.0,
                         help='dropout ratio')
     parser.add_argument('--num_layer', type=int, default=4,
@@ -101,6 +105,8 @@ def main():
         'scalar':args.scalar,  
         'mlp':args.mlp, 
         'jk':args.jk, 
+        'gnn_layer_type': args.gnn_layer_type,
+        'single_mlp': args.single_mlp,
         'combination':args.combination,
         'multiplier':args.multiplier,
         'keys':subgraph.get_keys_from_loaders([train_loader, valid_loader, test_loader]),
