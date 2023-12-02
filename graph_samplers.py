@@ -107,4 +107,3 @@ if __name__=='__main__':
     print('sampled edges ', G_in.edges)
     print('sampled nodes ', len(G_in.nodes))
     print('degrees ', G_in.degree)
-

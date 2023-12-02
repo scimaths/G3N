@@ -31,21 +31,23 @@ def get_keys_from_loaders(loaders):
     keys = set()
     for loader in loaders:
         for batch in loader:
+            print('batch in loader ', batch)
             pairs, _, _ = batch.pair_info[0]
             for key in pairs:
                 keys.add(key)
-    print('topology types:', keys)
+    print('topology types:', keys) #keys is most probably f_pos, i.e increasing seq of dist from central node
     print('number of topology types:', len(keys))
     return keys
 
 def transform(data, d, t, connected, num_samp = 10000, samp_frac = 1, sampler = None, 
               budget = 50, init_size = 20, walk_len = 20):
-    print("computing neibrhd pair data")
-    print("node features shape ", data.x.shape)
-    print("edge index shape ", data.edge_index.shape)
-    data.pair_info = compute_nhbr_pair_data(to_networkx(data), d, t, connected, num_samp, samp_frac, 
+    data.pair_info, sampled_nodes = compute_nhbr_pair_data(to_networkx(data), d, t, connected, num_samp, samp_frac, 
                                             sampler, budget, init_size, walk_len)
-    return data
+    
+    if sampler is None:
+        return data
+    else:
+        return data, sampled_nodes
 
 def knbrs(G_in, start, k, num_samples=10000):  # get k-hop neighbourhood
     # nbrs = nx.single_source_shortest_path_length(G_in,source=start,cutoff=k).keys()  # slightly slower than below?
@@ -70,6 +72,7 @@ def original_degree(u, G):
 def compute_nhbr_pair_data(G, d, t, require_connected, num_sample = 100, samp_frac = 1, sampler = None, 
                            budget = 50, init_size = 20, walk_len = 20):
     G = G.to_undirected()  # works assuming undirected
+    sampled_nodes = len(G.nodes)
     if sampler == 'edge':
         g_edge_list = np.array(G.edges)
         g_num_nodes = len(G.nodes)
@@ -111,7 +114,7 @@ def compute_nhbr_pair_data(G, d, t, require_connected, num_sample = 100, samp_fr
     #print("Nodes in one batch(?) ", G.nodes)
     for node in G.nodes:  # sorted 0,1,.. etc
         #for a node, search it's d-hop neighbourhood
-        subgraph_nodes = knbrs(G, node, d, num_sample)
+        subgraph_nodes = knbrs(G, node, d, num_sample) #list of all nodes reachable by atmost k hop from u
         if t==1:
             subgraph_nodes.remove(node)
         for comb in itertools.combinations(subgraph_nodes, t): # all possible t combinations of graph nodes
@@ -157,30 +160,31 @@ def compute_nhbr_pair_data(G, d, t, require_connected, num_sample = 100, samp_fr
 
                 tuple_list = sorted([(distances[node][u], u) for u in comb], key=lambda x: x[0]) #verices in increasing distance from node
 
-                key = [x[0] for x in tuple_list] #dist of distances from u to nodes in t-ord subgraph, f_pos as per implementation
-                key = tuple(key)
+                key = [x[0] for x in tuple_list] #list of distances from u to nodes in the t-ord subgraph comb
+                key = tuple(key) #key is basically f_pos for the subgraph comb
 
                 if key not in pairs:
                     pairs[key] = [[] for _ in range(t)]
                     degrees[key] = [[] for _ in range(t)]
                     scatter[key] = []
 
-                for i in range(t):
-                    u = tuple_list[i][1]
-                    deg = induced_degree(u, G=G, subgraph_nodes=subgraph_nodes)
+                for i in range(t): #iterate across nodes in comb
+                    u = tuple_list[i][1] #node index
+                    deg = induced_degree(u, G=G, subgraph_nodes=subgraph_nodes) #deg of u in induced subgraph of k-hop nbrs of node
                     deg = min(max_deg, deg) - 1
                     one_hot_deg = [0 for _ in range(one_hot_len)] #one hot len 5 or 7
                     one_hot_deg[deg] = 1
                     if t==3:
                         one_hot_deg[max_deg + iso_type] = 1
-                    pairs[key][i].append(u) #for a f_pos(key), node that comes at ith dist from centre node
+                    pairs[key][i].append(u) #pairs[key][i] is list of all nodes having f_pos=key and at a (sorted) position i from centraql node
                     degrees[key][i].append(one_hot_deg)
-                scatter[key].append(node)
+                scatter[key].append(node) #list of central nodes having nbrhd graph of positional type fpos
             else:
                 continue
     for key in pairs:
         pairs[key] = torch.tensor(pairs[key]).to('cuda')
         degrees[key] = torch.tensor(degrees[key]).to('cuda')
-        scatter[key] = torch.tensor(scatter[key]).to('cuda')
+        scatter[key] = torch.tensor(scatter[key]).long().to('cuda')
     nhbr_info = (pairs, degrees, scatter)
-    return nhbr_info
+    #print('returning nbrhd info ', nhbr_info)
+    return nhbr_info, sampled_nodes
