@@ -1,3 +1,16 @@
+# Modifications by scimaths & Soutrik-01
+
+- `master` branch includes work on GMN, naive sampling of subgraphs and replacing different MLP per positional & isomorphism types with one-hot embeddings
+
+- `side` branch includes work on attention and subgraph sampling strategies (node, edge, random-walk etc).
+
+- The current codebase has been adapted just for the ZINC (`src/zinc.py`) and TU (`src/grid_tu.py`) datasets. We illustrate usage for these below.
+
+    - To run GMN, add the `--gnn_layer_type gmn` arg.
+    - To sample subgraphs with probability $p$, use the `--p_inclusion <p>` tag. The default setting is $p=1.0$ and includes all subgraphs.
+    - To replace different MLPs per type with one-hot embeddings, use the `--single_mlp` arg.
+
+
 # G3N: Graph Neighbourhood Neural Networks
 
 ## Requirements
