@@ -1,0 +1,22 @@
+cuda available with GPU: NVIDIA TITAN Xp
+Loading pair infomation...
+Pair infomation loaded! Time: 1.7176072597503662
+topology types: {(0, 1), (1, 2), (1, 1), (2, 3), (3, 3), (2, 2)}
+number of topology types: 6
+emb_dim: 80
+number of parameters: 200585
+Warning: 100000 parameter budget exceeded.
+Epoch 00039: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 00050: reducing learning rate of group 0 to 2.5000e-04.
+Epoch 00061: reducing learning rate of group 0 to 1.2500e-04.
+Epoch 00072: reducing learning rate of group 0 to 6.2500e-05.
+Epoch 00083: reducing learning rate of group 0 to 3.1250e-05.
+Epoch 00094: reducing learning rate of group 0 to 1.5625e-05.
+Epoch 00105: reducing learning rate of group 0 to 7.8125e-06.
+
+!! LR EQUAL TO MIN LR SET.
+Test MAE: 1.9641
+Train MAE: 1.3962
+Convergence Time (Epochs): 104.0000
+TOTAL TIME TAKEN: 469.7243s
+AVG TIME PER EPOCH: 4.4595s

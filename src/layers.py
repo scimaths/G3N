@@ -1,3 +1,4 @@
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -20,6 +21,7 @@ class GNNLayer(nn.Module):
         self.d = params['d']
         self.t = params['t']
         self.scalar = params['scalar']
+        self.p_inclusion = params['p_inclusion']
         self.combination = params['combination']
         self.is_gmn = (update_type == 'gmn')
         self.single_mlp = single_mlp
@@ -73,6 +75,9 @@ class GNNLayer(nn.Module):
 
         for key in pairs:
             if len(scatter[key]) == 0:
+                continue
+
+            if np.random.uniform() > self.p_inclusion:
                 continue
 
             k = str(key)

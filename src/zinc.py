@@ -45,6 +45,8 @@ def main():
                         help="jk")
     parser.add_argument('--multiplier', type=int, default=1,
                         help="hidden layer readout multiplier")
+    parser.add_argument('--p_inclusion', type=float, default=1.0,
+                        help="probability of inclusion of a subgraph")
 
     parser.add_argument('--batch_size', type=int, default=128,
                         help='input batch size for training')
@@ -109,6 +111,7 @@ def main():
         'single_mlp': args.single_mlp,
         'combination':args.combination,
         'multiplier':args.multiplier,
+        'p_inclusion':args.p_inclusion,
         'keys':subgraph.get_keys_from_loaders([train_loader, valid_loader, test_loader]),
     }
 

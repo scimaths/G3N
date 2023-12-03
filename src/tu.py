@@ -43,6 +43,10 @@ def main():
     parser.add_argument('--no-connected', dest='connected', action='store_false',
                         help='also consider disconnected t-subsets')
 
+    parser.add_argument('--single_mlp', action='store_true',
+                        help='gnn layer type, allowed are gnn and gmn')
+    parser.add_argument('--gnn_layer_type', default='gnn',
+                        help='gnn layer type, allowed are gnn and gmn')
     parser.add_argument('--mlp', type=bool, default=False,
                         help="mlp (default: False)")
     parser.add_argument('--jk', type=bool, default=True,
@@ -57,6 +61,8 @@ def main():
                         help='pair combination operation')
     parser.add_argument('--readout', type=str, default="sum", choices=["sum", "mean"],
                         help='readout')
+    parser.add_argument('--p_inclusion', type=float, default=1.0,
+                        help="probability of inclusion of a subgraph")
 
     parser.add_argument('--batch_size', type=int, default=64,
                         help='input batch size for training')
@@ -157,6 +163,9 @@ def main():
                 'scalar':args.scalar,  
                 'mlp':args.mlp, 
                 'jk':args.jk, 
+                'gnn_layer_type': args.gnn_layer_type,
+                'single_mlp': args.single_mlp,
+                'p_inclusion':args.p_inclusion,
                 'combination':args.combination,
                 'keys':subgraph.get_keys_from_loaders([train_loader, valid_loader]),
                 'tu':True,
